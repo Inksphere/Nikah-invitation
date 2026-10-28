@@ -1,15 +1,16 @@
+```css
 @import "tailwindcss";
 
 @layer base {
   :root {
-    --color-emerald: #702C3B;
-    --color-emerald-deep: #3D1723;
-    --color-emerald-light: #8E4654;
-    --color-emerald-muted: #A66B75;
-    --color-sage: #B99A78;
-    --color-sage-soft: #D8BE98;
-    --color-sage-light: #F5EAE2;
-    --color-ivory: #FFFAF3;
+    --color-emerald: #244B3A;
+    --color-emerald-deep: #142F25;
+    --color-emerald-light: #386B50;
+    --color-emerald-muted: #62866F;
+    --color-sage: #B49A68;
+    --color-sage-soft: #D9C69B;
+    --color-sage-light: #E9EFE8;
+    --color-ivory: #FBF8F0;
     --color-white: #FFFFFF;
   }
 
@@ -53,17 +54,17 @@
 
 /* Textures */
 .paper-texture {
-  background-color: #FFFAF3;
-  background-image: radial-gradient(#E9D9CA 0.4px, transparent 0.4px);
+  background-color: #FBF8F0;
+  background-image: radial-gradient(#D8DFD3 0.4px, transparent 0.4px);
   background-size: 16px 16px;
 }
 
 .emerald-card-gradient {
-  background: linear-gradient(165deg, #7A3545 0%, #702C3B 50%, #3D1723 100%);
+  background: linear-gradient(165deg, #386B50 0%, #244B3A 50%, #142F25 100%);
 }
 
 .envelope-green-gradient {
-  background: linear-gradient(135deg, #8E4654 0%, #702C3B 50%, #3D1723 100%);
+  background: linear-gradient(135deg, #386B50 0%, #244B3A 50%, #142F25 100%);
 }
 
 /* 3D Envelope Transformations */
@@ -80,14 +81,14 @@
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #FFFAF3;
+  background: #FBF8F0;
 }
 ::-webkit-scrollbar-thumb {
-  background: #D8BE98;
+  background: #D9C69B;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #702C3B;
+  background: #244B3A;
 }
 
 @keyframes gentleFloat {
@@ -105,13 +106,14 @@
 
 @keyframes pulseGlowGreen {
   0%, 100% {
-    box-shadow: 0 10px 25px -5px rgba(112, 44, 59, 0.25), 0 8px 10px -6px rgba(112, 44, 59, 0.2);
+    box-shadow: 0 10px 25px -5px rgba(36, 75, 58, 0.25), 0 8px 10px -6px rgba(36, 75, 58, 0.2);
   }
   50% {
-    box-shadow: 0 20px 30px -5px rgba(112, 44, 59, 0.4), 0 10px 15px -6px rgba(112, 44, 59, 0.3);
+    box-shadow: 0 20px 30px -5px rgba(36, 75, 58, 0.4), 0 10px 15px -6px rgba(36, 75, 58, 0.3);
   }
 }
 
 .animate-wax-glow-green {
   animation: pulseGlowGreen 3s ease-in-out infinite;
 }
+```
