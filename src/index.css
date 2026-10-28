@@ -2,14 +2,14 @@
 
 @layer base {
   :root {
-    --color-emerald: #0E3824;
-    --color-emerald-deep: #082618;
-    --color-emerald-light: #185A3B;
-    --color-emerald-muted: #2E6B4E;
-    --color-sage: #7C9A8B;
-    --color-sage-soft: #A2BCAD;
-    --color-sage-light: #EBF1ED;
-    --color-ivory: #F9FAF8;
+    --color-emerald: #702C3B;
+    --color-emerald-deep: #3D1723;
+    --color-emerald-light: #8E4654;
+    --color-emerald-muted: #A66B75;
+    --color-sage: #B99A78;
+    --color-sage-soft: #D8BE98;
+    --color-sage-light: #F5EAE2;
+    --color-ivory: #FFFAF3;
     --color-white: #FFFFFF;
   }
 
@@ -53,17 +53,17 @@
 
 /* Textures */
 .paper-texture {
-  background-color: #F9FAF8;
-  background-image: radial-gradient(#d6e0d9 0.4px, transparent 0.4px);
+  background-color: #FFFAF3;
+  background-image: radial-gradient(#E9D9CA 0.4px, transparent 0.4px);
   background-size: 16px 16px;
 }
 
 .emerald-card-gradient {
-  background: linear-gradient(165deg, #134630 0%, #0E3824 50%, #082618 100%);
+  background: linear-gradient(165deg, #8E4654 0%, #702C3B 50%, #3D1723 100%);
 }
 
 .envelope-green-gradient {
-  background: linear-gradient(135deg, #175438 0%, #0F3D27 50%, #0A2D1C 100%);
+  background: linear-gradient(135deg, #8E4654 0%, #702C3B 50%, #3D1723 100%);
 }
 
 /* 3D Envelope Transformations */
@@ -80,14 +80,14 @@
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #F9FAF8;
+  background: #FFFAF3;
 }
 ::-webkit-scrollbar-thumb {
-  background: #A2BCAD;
+  background: #D8BE98;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #0E3824;
+  background: #702C3B;
 }
 
 @keyframes gentleFloat {
@@ -105,10 +105,10 @@
 
 @keyframes pulseGlowGreen {
   0%, 100% {
-    box-shadow: 0 10px 25px -5px rgba(14, 56, 36, 0.25), 0 8px 10px -6px rgba(14, 56, 36, 0.2);
+    box-shadow: 0 10px 25px -5px rgba(112, 44, 59, 0.25), 0 8px 10px -6px rgba(112, 44, 59, 0.2);
   }
   50% {
-    box-shadow: 0 20px 30px -5px rgba(14, 56, 36, 0.4), 0 10px 15px -6px rgba(14, 56, 36, 0.3);
+    box-shadow: 0 20px 30px -5px rgba(112, 44, 59, 0.4), 0 10px 15px -6px rgba(112, 44, 59, 0.3);
   }
 }
 
