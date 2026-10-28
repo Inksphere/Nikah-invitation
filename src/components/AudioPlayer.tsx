@@ -115,6 +115,13 @@ export const AudioPlayer = forwardRef<AudioPlayerHandle, AudioPlayerProps>(
           src={WEDDING_DATA.media.audioUrl || '/audio/nikah_melody.mp3'}
           loop
           preload="auto"
+          onError={(e) => {
+            const target = e.currentTarget;
+            if (!target.src.endsWith('/audio/nikah_melody.mp3')) {
+              target.src = '/audio/nikah_melody.mp3';
+              target.play().catch(() => {});
+            }
+          }}
           onPlay={() => setIsPlaying(true)}
           onPause={() => setIsPlaying(false)}
         />
