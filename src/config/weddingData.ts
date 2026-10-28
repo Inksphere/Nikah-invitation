@@ -100,9 +100,9 @@ export const WEDDING_DATA: WeddingConfig = {
     instagramUrl: "https://www.instagram.com/__hashim_mhd_/",
   },
   media: {
-    // 1. Direct audio file link (can be a local path like "/audio/nikah_melody.mp3" or any online MP3 URL)
-    audioUrl: "/audio/nikah_melody.mp3",
-    // 2. YouTube link or ID
+    // Direct GitHub MP3 audio link (also cached locally in /public/audio/nikah_melody.mp3)
+    audioUrl: "https://raw.githubusercontent.com/Inksphere/Nikah-invitation/main/Music",
+    // YouTube link fallback
     youtubeAudioId: "oEpP5LhGIqU",
     youtubeShortUrl: "https://youtube.com/shorts/oEpP5LhGIqU?si=jl1DKkLfIIk6NDmy",
   },
